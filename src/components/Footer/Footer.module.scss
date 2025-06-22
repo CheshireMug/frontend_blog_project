@@ -1,0 +1,38 @@
+.root {
+  margin-top: 60px;
+  padding: 25px 0;
+  background-color: #0f0f0f; // почти чёрный
+  border-top: 1px solid #222;
+  font-size: 14px;
+  box-shadow: 0 -2px 10px rgba(0, 255, 255, 0.2);
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  color: #00ffff; // неоновый бирюзовый
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+
+  a {
+    color: #ff00ff; // неоновый розовый
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+    }
+  }
+}
